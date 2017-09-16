@@ -1,0 +1,134 @@
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+button,html,input,select,textarea{font-family:sans-serif}
+body{margin:0;font-family: microsoft yahei;}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{margin:.67em 0;font-size:2em}
+h2{margin:.83em 0;font-size:1.5em}
+h3{margin:1em 0;font-size:1.17em}
+h4{margin:1.33em 0;font-size:1em}
+h5{margin:1.67em 0;font-size:.83em}
+h6{margin:2.33em 0;font-size:.75em}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0;font-family: microsoft yahei;}
+code,kbd,pre,samp{font-size:1em;}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:after,q:before{content:'';content:none}
+small{font-size:80%}
+sub,sup{position:relative;vertical-align:baseline;font-size:75%;line-height:0}
+sup{top:-.5em}
+sub{bottom:-.25em}
+dl,menu,ol,ul{margin:1em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ol,nav ul{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{margin:0 2px;padding:.35em .625em .75em;border:1px solid silver}
+legend{padding:0;border:0;white-space:normal}
+button,input,select,textarea{margin:0;vertical-align:baseline;font-size:100%}
+button,input{line-height:normal}
+button,html input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+button[disabled],input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=search]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+button,html,input,select,textarea{color:#222}
+body{font-size:1em;line-height:1.4}
+::-moz-selection{background:#b3d4fc;text-shadow:none}
+::selection{background:#b3d4fc;text-shadow:none}
+hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc}
+img{vertical-align:middle}
+fieldset{margin:0;padding:0;border:0}
+textarea{resize:vertical}
+.ir{overflow:hidden;border:0;background-color:transparent}
+.ir:before{display:block;width:0;height:100%;content:""}
+.clearfix:after,.clearfix:before{display:table;content:" "}
+.clearfix:after{clear:both}
+body{width:100%;height:100%;background:#FFFFFF;color:#3d3d3d;font-weight:300;font-style:normal;font-family:Ubuntu}
+em{font-weight:500;font-style:normal}
+img{position:absolute}
+.chromeframe{position:fixed;z-index:1000;display:block;margin:.2em 0;padding:.2em 0;background:#ccc;color:#000}
+.click-through{pointer-events:none}
+@font-face{font-weight:400;font-style:normal;font-family:BPdotsRegular;src:url(../fonts/BPdots-webfont.eot);src:url(../fonts/BPdots-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/BPdots-webfont.woff) format("woff"),url(../fonts/BPdots-webfont.ttf) format("truetype"),url(../fonts/BPdots-webfont.svg#BPdotsRegular) format("svg")}
+#skrollr-body{width:100%;height:100%}
+
+.scene{position:fixed;width:100%;height:100%}
+.first{background: url(../img/roadbg.png) 50% 0 no-repeat;height:100%;background-size:100%;background-position: top left;}
+.first .inner{position:relative;margin:0 auto;width:600px;height:100%;max-height:347px;min-height:300px}
+.first .inner .logo{position: absolute;top:40%;left:40%}
+.first .inner .logowz{position: absolute;top:80%;left:25%}
+
+.grass{background:#fff}
+.road-start{height:300px;padding-left: 500px;background: url(../img/brand.png);}
+.road-start img{width:400px;top:15%}
+.road{color:#c0c0c0;position:relative;margin:0 auto;width:1000px;height:15000px;background:transparent url(../img/roadd.png) 0 0}
+.road p{line-height: 30px;margin-bottom: 50px;}
+.road1{position:absolute;right:8%;top:500px;}
+.road1 img{width:120px;position: absolute;}
+.road2{position: absolute;top:1500px;left:8%}
+.road2 img{width:120px;position: absolute;}
+.road3{position:absolute;right:8%;top:2500px;}
+.road3 img{width:120px;position: absolute;left:-30px;}
+.road4{position:absolute;left:8%;top:3500px;}
+.road4 img{width:120px;position: absolute;}
+.road-end img{border:0px solid red;position:absolute;margin:0px auto;left:12.5%;top:8%;}
+
+.fourth .kitchen-wall{height:67%;max-height:547px;min-height:300px;background: #fff;}
+.fourth .kitchen-wall-inner{position:relative;margin:0 auto;width:960px;height:100%;max-height:547px;min-height:300px}
+.fourth .kitchen-floor{height:40%;background:#555;color: #fff;padding-top: 30px;;}
+.fourth .left{float:left;width:50%;border:0px solid red;}
+.fourth .right{position: absolute;left:50%;border:0px solid red;width:50%;height:100%}
+.fourth .erweima{width:200px;}
+.fourth .top_left{border:0px solid red;position: absolute;left:13%;top:20%;font-family: microsoft yahei;}
+.fourth .top_left img{margin-bottom: 30px;position: relative;left:12%}
+.fourth .top_left h2,h4{margin:0px;}
+.fourth .top_left h2{left:2%;position: relative;}
+.fourth .top_right{position:absolute;border:0px solid red;padding-left: 100px;padding-top:100px;width:100%;}
+.fourth .top_right .logo{height:80px;}
+.fourth .top_right p{line-height: 40px; margin-top: 20%;}
+
+.car-container{position:relative;top:70px;z-index:100;margin:0 auto;width:1000px}
+.car-container-inner{position:absolute;width:254px;height:435px}
+img.roadworks{top:1200px;right:6%}
+img.roadworks-scroll{top:2100px;right:9%}
+.roadworks-sign-text,img.roadworks-sign{top:2100px;right:9%}
+img.traffic-lights{top:2200px;right:464px}
+.roadworks-sign-text{position:absolute;padding:23px 10px 0 10px;width:309px;height:334px;color:#FFF;text-align:center;text-transform:uppercase;text-shadow:0 0 10px #fbcc6c;font-size:30px;font-family:BPdotsRegular;line-height:30px;-webkit-animation-name:sign-flash;-moz-animation-name:sign-flash;-ms-animation-name:sign-flash;-o-animation-name:sign-flash;animation-name:sign-flash;-webkit-animation-duration:2.5s;-moz-animation-duration:2.5s;-ms-animation-duration:2.5s;-o-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-timing-function:ease-in-out;-moz-animation-timing-function:ease-in-out;-ms-animation-timing-function:ease-in-out;-o-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-delay:0;-moz-animation-delay:0;-ms-animation-delay:0;-o-animation-delay:0;animation-delay:0;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate}
+@keyframes sign-flash{30%{color:#fbdc9c;text-shadow:0 0 10px #fbcc6c}
+50%{color:#fff;text-shadow:0 0 15px #fbcc6c}
+70%{color:#fbdc9c;text-shadow:0 0 5px #fbcc6c}
+}
+@-moz-keyframes sign-flash{30%{color:#fbdc9c;text-shadow:0 0 10px #fbcc6c}
+50%{color:#fff;text-shadow:0 0 15px #fbcc6c}
+70%{color:#fbdc9c;text-shadow:0 0 5px #fbcc6c}
+}
+@-webkit-keyframes sign-flash{30%{color:#fbdc9c;text-shadow:0 0 10px #fbcc6c}
+50%{color:#fff;text-shadow:0 0 15px #fbcc6c}
+70%{color:#fbdc9c;text-shadow:0 0 5px #fbcc6c}
+}
+@-ms-keyframes "sign-flash"{30%{color:#fbdc9c;text-shadow:0 0 10px #fbcc6c}
+50%{color:#fff;text-shadow:0 0 15px #fbcc6c}
+70%{color:#fbdc9c;text-shadow:0 0 5px #fbcc6c}
+}
+@-o-keyframes sign-flash{30%{color:#fbdc9c;text-shadow:0 0 10px #fbcc6c}
+50%{color:#fff;text-shadow:0 0 15px #fbcc6c}
+70%{color:#fbdc9c;text-shadow:0 0 5px #fbcc6c}
+}
+.spacecar{height:350px;}
+.space{width:100%;height:100%;background:#354250}
+.stars-blurred{width:100%;height:100%;background:transparent url(../img/stars-blurred.png)}
+.space-stars{width:100%;height:100%;background:transparent url(../img/space-stars.png)}
+.space-container{position:relative;margin:0 auto;width:1000px;height:100%}
